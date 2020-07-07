@@ -1,0 +1,14 @@
+﻿
+@ViewBag.Title = "Error";
+@{ ViewBag.Title = "Error";}
+
+
+@{    if(String.IsNullOrEmpty(ViewBag.errorMessage)){
+        <h1 class="text-danger">An error occured!</h1>
+        }
+        else
+        {
+            <h2 class="text-danger">@ViewBag.errorMessage </h2>
+        }
+}
+

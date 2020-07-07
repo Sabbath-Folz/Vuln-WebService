@@ -1,0 +1,140 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Identity.EntityFrameworkCore
+@using WebApplication3.Data
+@using System.Linq
+@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@inject ApplicationDbContext context
+@inject DescriptionDbContext DescriptionDbContext
+@model WebApplication3.Models.MyPicturesViewModel
+
+<link rel="stylesheet" href="../css/site.css" />
+<meta charset="utf-8" />
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+
+@if (SignInManager.IsSignedIn(User)) // check if User is signed in
+{
+    //nav bar
+    <ul>
+        <li><a href="/Account/LoggedIn">Home</a></li>
+        <li><a href="/Account/MyPictures">My Pictures</a></li>
+        <li><a href="/Account/Settings">Settings</a></li>
+        <li style="float:right"><a href="/Account/Logout">Logout</a></li>
+    </ul>
+
+    <h1 align="center" class="heading">Here are your pictures, @User.Identity.Name!</h1>
+
+    <div align="center" style="margin-top: 65px; margin-bottom:30px">
+        <form method="post" enctype="multipart/form-data" asp-controller="Account" asp-action="UploadImage">
+            <input class="input_style" type="file" name="picture" required />
+            <input class="input_style" type="submit" value="Add picture do account" />
+        </form>
+    </div>
+
+
+
+
+
+    // Find out how many images the current user has
+    var result = from image in context.UserImage select image;
+    // initialize counter
+    var all = result.Count();
+
+    // Display all images of current users
+    for (var count = 0; count < all; count++)
+    {
+
+
+        // get image by triggering the AccountController
+        <div align="center">
+            <img src="@Url.Action("GetAllImages", "Admin", new { count = count })" height=400 width=600 />
+            <p id="@count"></p>
+            <form method="POST" asp-controller="Account" asp-action="SetDescription">
+                Description:  <input type="text" name="Description" />
+                <input style="display:none" id="@count-input" type="text" name="Path" value="so isch's" />
+
+                <input class="input_style" id="@count-button" type="submit" value="Change Description" />
+            </form>
+        </div>
+
+
+        // Get Name of Picture via AJAX Request
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $.ajax({
+                    type: 'GET',
+                    url: "GetPath/@count",
+
+                    success: function (result) {
+                        document.getElementById("@count").innerHTML = result;
+                        document.getElementById("@count-input").setAttribute('value', result);
+                    },
+
+                })
+
+            })
+
+
+
+            $("#@count-button").submit(function () {
+                var path = document.getElementById("@count").innerHTML;
+                var desc = document.getElementById("@count-button").innerHTML;
+                var parameters = "{'path':'" + path + "','description':'" + desc + "'}";
+                $.ajax({
+                    type: 'POST',
+                    url: "SetDescription",
+                    data: parameters,
+                    dataType: "json",
+                    sucess: function () {
+                        console.log(result)
+                    }
+
+                })
+
+
+            })
+
+        </script>
+
+
+        // get n-th image
+        var compareResult = result.Skip(count).First().Path;
+
+        // check if image has description. Display if it has
+        if (DescriptionDbContext.description.Any(d => d.Path == compareResult))
+        {
+            var compare2 = result.Skip(count).First().Path;
+            var descResult = from description in DescriptionDbContext.description where description.Path == compare2 select description;
+            <p class="Description" align="center">@descResult.First().Text</p>
+
+        }
+        else
+        {
+            <p class="Description" align="center">No description for this picture</p>
+        }
+
+    }
+    <div id="rectangle"></div>
+}
+else
+{
+    <ul>
+        <li><a href="LoggedIn">Home</a></li>
+        <li><a href="MyPictures">My Pictures</a></li>
+        <li><a href="Settings">Settings</a></li>
+        <li style="float:right"><a href="Logout">Logout</a></li>
+    </ul>
+
+
+    <h1 class="heading">Please login to visit this site</h1>
+    <form method="get" asp-controller="Account" role="form" asp-action="Login">
+        <input type="submit" value="return to login" class="Login" />
+    </form>
+    <div id="rectangle"></div>
+}
+
+
+       
+    }

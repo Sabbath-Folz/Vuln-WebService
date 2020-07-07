@@ -1,0 +1,79 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using WebApplication3.Data
+@using System.Linq
+@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@model WebApplication3.Models.PicturePost
+@inject UserManager<ApplicationUser>  userManager
+@inject ApplicationDbContext context
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+<link rel="stylesheet" href="../css/site.css" />
+<ul>
+    <li><a href="/Account/LoggedIn">Home</a></li>
+    <li><a href="/Account/MyPictures">My Pictures</a></li>
+    <li><a href="/Account/Settings">Settings</a></li>
+    <li style="float:right"><a href="/Account/Logout">Logout</a></li>
+</ul>
+
+<h1 class="heading" align="center">Welcome @User.Identity.Name</h1>
+
+
+
+<div align="center">
+    <img style="margin-top: 25px" src="@Url.Action("GetAvatar", "Account")" height=250 width=250 />
+
+
+
+    @{
+        var Uid = userManager.GetUserId(User);
+
+
+    // list all paths of own images
+        <script type="text/javascript">
+            $(document).ready(function () {
+
+                $.ajax({
+                    type: 'GET',
+                    url: 'ListImagePaths/"@Uid"',
+                    success: function (result) {
+                        var strHTML = "<tr><th class='heading'>Your Pictures are listed here</th></tr>"
+                        $(result).each(function () {
+                            var row = $(this)[0];
+                         
+                            strHTML += "<tr><td>" + row["text"] + "</a></tr>";
+                        });
+                        $("#ImageNames").html(strHTML);
+                        console.log(result);
+                    }
+                });
+            });
+        </script>
+
+        
+        var result1 = from users in context.Users where users.UserName == User.Identity.Name select users;
+        var user = result1.First();
+        if (user.IsAdmin == 1)
+        {
+
+            <form method="get" asp-controller="Admin" asp-action="MyPictures_Admin" style="margin-left:45%">
+                <button class="button_style" type="submit">See Pictures of all users</button>
+            </form>
+
+        }
+        else
+        {
+            <form method="get" asp-controller="Account" asp-action="MyPictures" style="margin-left:45%">
+                <button class="button_style" type="submit">My Pictures</button>
+            </form>
+        }
+    }
+
+
+    <table style="margin-top:70px" id="ImageNames"></table>
+
+
+
+</div>
+
+<div id="rectangle"></div>

@@ -1,0 +1,88 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using WebApplication3.Data
+@using System.Linq
+@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+@model WebApplication3.Models.PicturePost
+@inject UserManager<ApplicationUser>  userManager
+@inject ApplicationDbContext context
+
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+
+<link rel="stylesheet" href="../css/site.css" />
+
+<ul>
+    <li><a href="/Account/LoggedIn">Home</a></li>
+    <li><a href="/Account/MyPictures">My Pictures</a></li>
+    <li><a href="/Account/Settings">Settings</a></li>
+    <li style="float:right"><a href="/Account/Logout">Logout</a></li>
+</ul>
+
+@{var Uid = userManager.GetUserId(User);}
+
+
+<div align="center">
+    <img style="margin-top: 25px" src="@Url.Action("GetAvatar", "Account")" height=250 width=250 />
+
+
+
+    <div align="center" style="margin-top: 50px;">
+        <form method="post" enctype="multipart/form-data" asp-controller="Account" asp-action="AvatarUpload">
+            <input class="input_style" type="file" name="image" required />
+            <input class="input_style" type="submit" value="Change Profile Picture" />
+        </form>
+
+        <form style="margin-top:30px" method="post" action="/Account/ChangeUsername">
+            <input type="text" name="Username" placeholder="New Username" />
+            <input class="input_style" type="submit" value="Change Username" />
+        </form>
+
+        <form style="margin-top:30px" method="post" action="/Account/ChangeEmail">
+            <input id="email" type="text" name="EmailAdress" placeholder="New Email Adress" />
+            <input id="submit_button2" class="input_style" type="submit" value="Change Email" />
+        </form>
+    </div>
+
+    <form style="margin-top:30px" method="post" action="/Account/ChangePassword">
+        <input id="new_password" type="password" name="new_password" placeholder="New Password">
+        <input id="submit_button3" class="input_style" type="submit" value="Change Password">
+    </form>
+
+
+
+    <script type="text/javascript">
+
+
+         $("#submit_button2").click(function () {
+
+            $.ajax({
+                type: "POST",
+                url: "ChangeEmail",
+                data: { EmailAdress: $("#email").val(), UserId: "@Uid"  },
+                success: function (result) {
+                    console.log(result);
+                }
+            })
+        })
+
+
+        $("#submit_button3").click(function () {
+
+            $.ajax({
+                type: "POST",
+                url: "ChangePassword",
+                data: { new_password: $("#new_password").val(), UserId: "@Uid" },
+                success: function (result) {
+                    console.log(result);
+                }
+            })
+        })
+
+    </script>
+
+
+
+
+</div>
+
+
+<div id="rectangle"></div>

@@ -1,0 +1,90 @@
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.deps.json
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.runtimeconfig.json
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.runtimeconfig.dev.json
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.dll
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.pdb
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.Views.dll
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.Views.pdb
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorAssemblyInfo.cache
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorAssemblyInfo.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.AssemblyInfo.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.TagHelpers.input.cache
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.TagHelpers.output.cache
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorCoreGenerate.cache
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Email.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Error.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Info.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\LoggedIn.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\myPictures.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ResetPassword.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Settings.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Admin\myPictures_Admin.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\HeaderNavBar.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Upload\SaveAvatar.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorTargetAssemblyInfo.cache
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorTargetAssemblyInfo.cs
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.Views.pdb
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.dll
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.pdb
+C:\Users\User\Desktop\Denis\CTF\CTF-Service\CTF-Service\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.csproj.CopyComplete
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.deps.json
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.runtimeconfig.json
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.runtimeconfig.dev.json
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.dll
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.pdb
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.Views.dll
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\bin\Debug\netcoreapp2.2\WebApplication3.Views.pdb
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.csprojAssemblyReference.cache
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.csproj.CoreCompileInputs.cache
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorAssemblyInfo.cache
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorAssemblyInfo.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.AssemblyInfoInputs.cache
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.AssemblyInfo.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.TagHelpers.input.cache
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.TagHelpers.output.cache
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorCoreGenerate.cache
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ConfirmEmail.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Email.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Error.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ForgotPassword.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ForgotPasswordConfirmation.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Info.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\LoggedIn.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\myPictures.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ResetPassword.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\ResetPasswordConfirmation.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Account\Settings.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Admin\myPictures_Admin.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\HeaderNavBar.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\Upload\SaveAvatar.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorTargetAssemblyInfo.cache
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.RazorTargetAssemblyInfo.cs
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.Views.pdb
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.dll
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.pdb
+M:\CTF\NET Core Apps\WebApplication3\WebApplication3\obj\Debug\netcoreapp2.2\WebApplication3.csproj.CopyComplete
